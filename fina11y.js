@@ -13,7 +13,7 @@ var currentElement;
 // script.src = "https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js";
 // socket init
 // connecting to ip address
-var socket = io.connect('https://localhost:7444');
+var socket = io.connect('https://192.168.100.212:7444');
 // socket.on('connect',setTimeout(10000), function () {
 
 // initializing socket connecton
