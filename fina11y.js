@@ -104,7 +104,7 @@ if (document.readyState === 'complete') {
     } else {
         link.onload = function () { }
     }
-    link.href = "https://cdn.jsdelivr.net/gh/AswinTA/HighlighterA11y@1.0.1/finallycss.css";
+    link.href = "https://cdn.jsdelivr.net/gh/AswinTA/HighlighterA11y@1.0.2/finallycss.css";
     document.getElementsByTagName("head")[0].appendChild(link);
     if (!window.jQuery) {
         var jquery = document.createElement("script");
@@ -161,9 +161,9 @@ function createfina11yBody() {
             caller();
         }
     }
-    a11yscript.src = "https://cdn.jsdelivr.net/gh/AswinTA/HighlighterA11y@1.0.1/finallyUi.js";
+    a11yscript.src = "https://cdn.jsdelivr.net/gh/AswinTA/HighlighterA11y@1.0.2/finallyUi.js";
 
-    imported.src = '../a11yElementHighlighter/socket.io.min.js';
+    imported.src = 'https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js';
     // document.head.appendChild(imported);
     document.getElementsByTagName("head")[0].appendChild(imported);
     document.getElementsByTagName("head")[0].appendChild(a11yscript);
