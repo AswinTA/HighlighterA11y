@@ -104,7 +104,7 @@ if (document.readyState === 'complete') {
     } else {
         link.onload = function () { }
     }
-    link.href = "../a11yElementHighlighter/finallycss.css";
+    link.href = "https://cdn.jsdelivr.net/gh/AswinTA/HighlighterA11y@1.0.1/finallycss.css";
     document.getElementsByTagName("head")[0].appendChild(link);
     if (!window.jQuery) {
         var jquery = document.createElement("script");
