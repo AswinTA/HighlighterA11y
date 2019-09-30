@@ -161,7 +161,7 @@ function createfina11yBody() {
             caller();
         }
     }
-    a11yscript.src = "../a11yElementHighlighter/finallyUi.js";
+    a11yscript.src = "https://cdn.jsdelivr.net/gh/AswinTA/HighlighterA11y@1.0.1/finallyUi.js";
 
     imported.src = '../a11yElementHighlighter/socket.io.min.js';
     // document.head.appendChild(imported);
