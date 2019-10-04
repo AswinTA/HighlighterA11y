@@ -72,8 +72,8 @@ socket.on('connect', function () {
                         $(accordionSubPanel).find("#fina11y-sub-category-error-id-36").attr("id", "fina11y-sub-category-error-id-" + errorObj.id);
                         $(accordionSubPanel).find("pre[id=fina11y-error-code-id-36]").attr("id", "fina11y-error-code-id-" + errorObj.id);
                         $(accordionSubPanel).find("pre[id=fina11y-error-remarks-id-36]").attr("id", "fina11y-error-remarks-id-" + errorObj.id);
-                        $(accordionSubPanel).find("pre.fina11y-error-src-code").text(errorObj.problemSource);
-                        $(accordionSubPanel).find(".fina11y-error-code-snippet").text(errorObj.problemSource);
+                           $(accordionSubPanel).find("pre.fina11y-error-src-code").text(errorObj.prbmSrc);
+                        $(accordionSubPanel).find(".fina11y-error-code-snippet").text(errorObj.prbmSrc);
                         $(accordionSubPanel).find(".accordion-header").html(errorObj.testCase);
                         $(accordionMainWrapper).find(".accordion.js-accordion").append(accordionSubPanel);
                         errorCount++;
