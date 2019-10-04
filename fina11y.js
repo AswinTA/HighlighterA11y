@@ -479,8 +479,8 @@ $(document).on('click', '[id^=fina11y-error-submit-btn]', function (event) {
             $(fina11yParentLiElement).find(".tota11y-info-error-title").append("<span class='fina11y-completed-badge'>completed</span>");
 
             // disabling the 2 button.
-            $("[id^=fina11y-not-an-issue-btn]").prop('disabled', true);
-            $("[id^=fina11y-not-an-issue-btn]").css('cursor', 'not-allowed');
+           $(currentBtn).prop('disabled', true);
+            $(currentBtn).css('cursor', 'not-allowed');
 
             $("[id^=fina11y-error-submit-btn]").prop('disabled', true);
             $("[id^=fina11y-error-submit-btn]").css('cursor', 'not-allowed');
