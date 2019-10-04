@@ -893,8 +893,11 @@ function findElementByClassAttrTextTagName(className, attributeList, elementText
         var elementSelector = tagName + ":not([class])"+ attrNameAndValue;
         console.log("ELEMENT SELECTOR--->>");
         console.log(elementSelector);
-        var finalElement = $(elementSelector);
-
+         // filter to exclude element from tool
+        let filterSelector = "#moveableBody "+ tagName;
+        var finalElement = $(elementSelector).not($(filterSelector));
+      
+      
         if (finalElement.length < 1) {
             // to avoid / symbol error on src attribute.
             if (elementSelector.indexOf("src") != -1) {
