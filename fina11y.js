@@ -48,7 +48,7 @@ socket.on('connect', function () {
         $.ajax({
             type: "GET", //rest Type
             // url: "http://192.168.35.31:8005/aitoolfilter?url=https://www.typescriptlang.org/&aicate=" + subCategory,
-            url: "http://35.188.66.232:8005/aitoolfilter?url=+currentUrl+&aicate="+subCategory,
+            url: "http://35.188.66.232:8005/aitoolfilter?url="+currentUrl+"&aicate="+subCategory,
             
             contentType: "application/json; charset=utf-8",
             success: function (response) {
