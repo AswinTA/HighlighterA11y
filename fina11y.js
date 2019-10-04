@@ -1032,8 +1032,8 @@ $(document).on('click', '#fina11y-fix-and-replace', () => {
     var accordion = $.parseHTML(' <div class="accordion js-accordion"></div>');
     var accordionMainWrapper = $.parseHTML('<div class="accordion__item js-accordion-item active"><div class="accordion-header js-accordion-header" id="fina11y-error-category-id-8">main title</div><div class="accordion-body js-accordion-body" style="display: block;"><div class="accordion-body__contents">inside main panel 1</div><div class="accordion js-accordion"></div></div></div>');
 
-    // let currentUrl = window.location.href;
-    let currentUrl = "https://www.typescriptlang.org/";
+     let currentUrl = window.location.href;
+    //let currentUrl = "https://www.typescriptlang.org/";
 
     var jsonData = new Object();
     jsonData.urld = currentUrl;
